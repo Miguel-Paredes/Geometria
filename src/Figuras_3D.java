@@ -1,11 +1,10 @@
 public class Figuras_3D {
     private int nLados;//número de lados
-    public float longitud;// del lado
-    public float base;//longitud del base
-    public float altura;//longitud altura
+    private float longitud;// del lado
+    private float base;//longitud del base
+    private float altura;//longitud altura
     public float volumen;
-
-    public float radio;
+    private float radio;
 
     //constructor
 
