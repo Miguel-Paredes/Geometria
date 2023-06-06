@@ -19,7 +19,7 @@ public class Figuras_3D {
     //setters and getters
 
 
-    public int getnLados() {
+    private int getnLados() {
         return nLados;
     }
 
@@ -27,7 +27,7 @@ public class Figuras_3D {
         this.nLados = nLados;
     }
 
-    public float getLongitud() {
+    private float getLongitud() {
         return longitud;
     }
 
@@ -35,7 +35,7 @@ public class Figuras_3D {
         this.longitud = longitud;
     }
 
-    public float getBase() {
+    private float getBase() {
         return base;
     }
 
@@ -43,7 +43,7 @@ public class Figuras_3D {
         this.base = base;
     }
 
-    public float getAltura() {
+    private float getAltura() {
         return altura;
     }
 
@@ -55,16 +55,18 @@ public class Figuras_3D {
         return volumen;
     }
 
-    public void setVolumen(float volumen) {
+    private void setVolumen(float volumen) {
         this.volumen = volumen;
     }
 
-    public float getRadio() {
+    private float getRadio() {
         return radio;
     }
 
     public void setRadio(float radio) {
         this.radio = radio;
     }
+    public void imprimir(){
 
+    }
 }
