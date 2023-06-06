@@ -66,6 +66,6 @@ public class Figuras_3D {
         this.radio = radio;
     }
     public void imprimir(){
-
+        System.out.println("cuadrado: ");
     }
 }
