@@ -13,7 +13,6 @@ public class Figuras_3D {
         this.longitud = longitud;
         this.base = base;
         this.altura = altura;
-        this.volumen = volumen;
         this.radio = radio;
     }
     //setters and getters
