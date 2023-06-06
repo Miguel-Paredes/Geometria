@@ -6,19 +6,19 @@ public class Figuras_2D {
     public float altura;//longitud altura
 
     //Constructor
-    public figuras2D(int nLados) {
+    public Figuras_2D(int nLados) {
         this.nLados = nLados;
     }
 
-    public figuras2D(float lado) {
+    public Figuras_2D(float lado) {
         this.lado = lado;
     }
 
-    public figuras2D(int nLados, float lado) {
+    public Figuras_2D(int nLados, float lado) {
         this.nLados = nLados;
         this.lado = lado;
     }
-    public figuras2D(float base, float altura){
+    public Figuras_2D(float base, float altura){
         this.base= base;
         this.altura=altura;
     }
