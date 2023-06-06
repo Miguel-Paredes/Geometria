@@ -30,19 +30,12 @@ public class Figuras_2D {
         this.lado = lado;}
 
     public float areaCuadrado(int lado){
-        return this.lado*this.lado;
-    };
+        return this.lado*this.lado;};
     private float perimetroCuadrado(){
-        return 0;
-    };
+        return 0;};
     public float areaTriangulo() {
-        return 0;
-    };
+        return 0;};
     private float perimetroTriangulo(){
-        return 0;
-    };
-    /*public float areaCuadrado(){};
-    private float perimetroCuadrado(){};
-    public float areaCuadrado(){};
-    private float perimetroCuadrado(){};*/
+        return 0;};
+
 }
