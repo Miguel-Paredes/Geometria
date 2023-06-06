@@ -8,7 +8,7 @@ public class Figuras_3D {
 
     //constructor
 
-    public Figuras_3D(int nLados, float longitud, float base, float altura, float volumen, float radio) {
+    public Figuras_3D(int nLados, float longitud, float base, float altura, float radio) {
         this.nLados = nLados;
         this.longitud = longitud;
         this.base = base;
